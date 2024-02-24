@@ -1,4 +1,4 @@
-# DC-Motor-Driver-Interface⚙️
+# DC Motor Driver Interface⚙️
 
 ## Things You Need🎒
 - <a href="https://www.xilinx.com/publications/products/cpld/coolrunnerii-product-brief.pdf"> CoolRunner-II CPLD </a>
