@@ -60,15 +60,15 @@ output of the clock is not speed and will be around 2KHz to drive the DC motor. 
 
 ![image](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/94218d8d-ddf0-4c8a-80e5-564235a9e957)
 
-
 </details>
 
 <details>
 <summary> 5. Comparator🤷‍♀️ </summary>
 The comparator compares the output of Counter A and Counter B to get the PWM. Inside, the process is that if the output of Counter A is greater than Counter B, it means that the comparator will give a high output, otherwise the output will be low. The comparator can compare the 2 comparators because both counters A and B are connected to the same clock divider, and the 2 output counters will give the same output every second. Since both counters are 4 bit equal, there will be 16 different speed levels.
-</details>
 
 ![image](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/8aeb00d4-dd62-48a0-a684-e0c0c2b4729a)
+  
+</details>
 
 ## Setup🕹️
 First we have to upload the VHDL program into the CPLD board. Then, we install the motor driver (as shown in figure) to the channel that we have programmed in the ucf file. Because this DC motor requires 12V to operate, we need an external power supply which we can provide via the blue terminal available on the motor driver.
