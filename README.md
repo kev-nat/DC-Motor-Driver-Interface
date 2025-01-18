@@ -52,10 +52,11 @@ output of the clock is not speed and will be around 2KHz to drive the DC motor. 
 
 <details>
 <summary> 4. Counter </summary>
-  - Counter A:
+  
+  Counter A:
   Each time Counter A gets from the pressed button, the signal connected to the output will add 1 bit up to 1111. If the output is 1111 and the button is pressed, the output will return to 0000. But, if the     reset button is pressed, the counter will return to 0000.
-
-  - Counter B
+  
+  Counter B
   Each time Counter B gets input from the clock divider, the output signal will add 1 bit up to 1111. Once the output reaches 1111, the counter will then flip to 0000 and repeat as long as there is an input clock. If the reset button is pressed, the counter will return to 0000.
 
 ![image](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/94218d8d-ddf0-4c8a-80e5-564235a9e957)
