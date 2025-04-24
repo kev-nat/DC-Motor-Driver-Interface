@@ -1,14 +1,14 @@
 # DC Motor Driver Interface⚙️
 
-## Things You Need🎒
+### Things You Need🎒
 - <a href="https://www.xilinx.com/publications/products/cpld/coolrunnerii-product-brief.pdf"> CoolRunner-II CPLD </a>
 - <a href="https://digilent.com/reference/pmod/pmodhb5/reference-manual?redirect=1"> Pmod HB5 </a>
-- <a href="https://digilent.com/shop/dc-motor-gearbox-1-19-gear-ratio-custom-12v-motor-designed-for-digilent-robot-kits/"> DC Motor 12V </a>
+- <a href="https://digilent.com/shop/dc-motor-gearbox-1-19-gear-ratio-custom-12v-motor-designed-for-digilent-robot-kits/"> 12V DC Motor </a>
 
-## Objectives🎯
+### Objectives🎯
 Drive a DC motor using a H-bridge circuit to vary the speed or torque of the motor using PWM signal with 16 different levels of duty cycle (levels are controlled from external switches).
 
-## Problems🚨
+### Problems🚨
 Before the advent of Pulse Width Modulation (PWM), potentiometers were commonly used to regulate the speed of Direct Current (DC) motors. However, these potentiometers had three main drawbacks:
 
 - Dynamic Range: The system could be adversely affected by leakage when the wiper was turned.
@@ -17,7 +17,7 @@ Before the advent of Pulse Width Modulation (PWM), potentiometers were commonly 
 
 - Corrosion: Rust can disrupt the signal entering the system or circuit, causing further complications.
 
-## Solution💡
+### Solution💡
 People now started using digital circuits to handle Pulse Width Modulation (PWM). For what is altered, there will be the duty cycle, and as for the output, the speed will depend on the various levels depending on its voltage output, which will be affected depending on the duty cycle.
 
 ![Animation](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/58d82f5f-f5f7-4bea-85d6-762e97fb357e)
@@ -76,10 +76,11 @@ First we have to upload the VHDL program into the CPLD board. Then, we install t
 
 ![image](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/3d5bba2f-3c62-4fa6-8b05-2a55a8e6b15a)
 
-## Simulation
+### Simulation
 ![Screenshot (10297)](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/1ba625bb-fea6-4161-9da8-c6bd34eded3d)
 ![Screenshot (10299)](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/e2ca6250-2e20-4e2e-bbc7-2c427e4ed9fc)
 ![Screenshot (10301)](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/335935bb-daba-47e7-bca7-6612559091fe)
 
 ## Documentation
-- <a href="https://youtube.com/shorts/nYx9Fdc90hw"> Demo Video </a>
+<a href="https://youtube.com/shorts/nYx9Fdc90hw"> Demo Video </a>
+<a href="https://youtube.com/shorts/EZm1UH0z-bI"> Installation </a>
