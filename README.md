@@ -1,14 +1,14 @@
-# DC Motor Driver Interface⚙️
+# DC Motor Driver Interface
 
-### Things You Need🎒
+### Things You Need
 - <a href="https://www.xilinx.com/publications/products/cpld/coolrunnerii-product-brief.pdf"> CoolRunner-II CPLD </a>
 - <a href="https://digilent.com/reference/pmod/pmodhb5/reference-manual?redirect=1"> Pmod HB5 </a>
 - <a href="https://digilent.com/shop/dc-motor-gearbox-1-19-gear-ratio-custom-12v-motor-designed-for-digilent-robot-kits/"> 12V DC Motor </a>
 
-### Objectives🎯
+### Objectives
 Drive a DC motor using a H-bridge circuit to vary the speed or torque of the motor using PWM signal with 16 different levels of duty cycle (levels are controlled from external switches).
 
-### Problems🚨
+### Problems�
 Before the advent of Pulse Width Modulation (PWM), potentiometers were commonly used to regulate the speed of Direct Current (DC) motors. However, these potentiometers had three main drawbacks:
 
 - Dynamic Range: The system could be adversely affected by leakage when the wiper was turned.
@@ -17,12 +17,12 @@ Before the advent of Pulse Width Modulation (PWM), potentiometers were commonly 
 
 - Corrosion: Rust can disrupt the signal entering the system or circuit, causing further complications.
 
-### Solution💡
+### Solution
 People now started using digital circuits to handle Pulse Width Modulation (PWM). For what is altered, there will be the duty cycle, and as for the output, the speed will depend on the various levels depending on its voltage output, which will be affected depending on the duty cycle.
 
 ![Animation](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/58d82f5f-f5f7-4bea-85d6-762e97fb357e)
 
-## How to Control the Duty Cycle🕹️
+## How to Control the Duty Cycle
 ![image](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/1115b11c-30ee-4467-af3b-52cdcea37e06)
 
 <details>
