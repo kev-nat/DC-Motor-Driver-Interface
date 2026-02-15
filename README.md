@@ -82,5 +82,5 @@ First we have to upload the VHDL program into the CPLD board. Then, we install t
 ![Screenshot (10301)](https://github.com/kev-nat/DC-Motor-Driver-Interface/assets/97384711/335935bb-daba-47e7-bca7-6612559091fe)
 
 ## Documentation
-- <a href="https://youtube.com/shorts/nYx9Fdc90hw"> Demo </a>
-- <a href="https://youtube.com/shorts/EZm1UH0z-bI"> Installation </a>
+- <a href="https://youtube.com/shorts/hiFsdmYdWEE"> Demo </a>
+- <a href="https://youtube.com/shorts/lGltdScyRK0"> Installation </a>
